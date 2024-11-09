@@ -8,7 +8,7 @@ function playGame(userChoice) {
     // Display both user and computer choices
     let resultMessage = `You chose ${userChoice}. Computer chose ${computerChoice}. `;
   
-    // Determine the outcome using if statements
+    // Determine the outcome
     if (userChoice === computerChoice) {
       resultMessage += "It's a tie!";
     } else if (
